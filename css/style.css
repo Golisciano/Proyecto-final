@@ -1,0 +1,171 @@
+body{
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+    background-image: url("fondo.jfif");
+    text-shadow: -1px -1px 1px #000;
+}
+
+img{
+    max-width: 900px; max-height: 500px;
+}
+
+menu{
+    text-align: center;
+}
+.img3{ 
+    height: 600px;
+}
+
+@media (max-width: 768px) {
+    p{ 
+    color: #474b4e;
+    text-align: center;
+    } 
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 500px;
+    } 
+}
+
+
+h1{
+    color:whitesmoke;
+    border:5px solid;
+    border-color: #474b4e;
+    text-align: center;
+    padding: 4%;
+    font-size: 55px;
+    font-family: sans-serif;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+p{ font-size: 20px;
+}
+
+.bstyle{
+    background-color: #474b4e;
+    padding: 10px 70px 10px 70px;
+    border-radius: 85px;
+    border-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+menu{
+    background-color: #474b4e;
+    padding: 25px 25px 25px 25px;
+}
+
+.item{
+    display: inline-block;
+    padding: 30px 30px;
+    border-radius: 25px 25px 25px 25px;
+    transition: all 350ms linear;
+
+}
+
+.item:hover{
+    background-color: #221e22;
+    transform: scale(2 2) translate(20px, 20px);    
+}
+
+.one-third{ 
+    width: 31.5%; 
+    float: left; 
+    padding: 10px; 
+    text-align: center; 
+} 
+
+.one-third-padding { 
+    width: 29%; 
+    float: left; 
+    margin: 2% 2%; 
+} 
+
+.icon-wrap { 
+    margin: 0 auto; 
+    width: 120px; 
+    height: 120px; 
+    background-color: #474b4e; 
+    border-radius: 125px; 
+    text-align: center; 
+    margin-top: 3%; 
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border:10px solid;
+    border-color:#221e22;
+    text-align: center;
+    padding: 0%;
+}
+
+.Footer1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.Cfooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.Cfooter h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    
+}
+
+.Cfooter a{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #7a7a7a;
+    display: inline-block;
+   
+}
+
+.Copy{
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.Copy p {
+    
+    font-size: 10px;
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.Copy p a { 
+    font-size: 10px;
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.Copy hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
